@@ -49,7 +49,7 @@ function logout(){
       }).catch((error) => {
         console.dir(error);
         alert(error.data.message);
-        window.location = "./login.html"
+        window.location = "./index.html"
       })
     }
   });
